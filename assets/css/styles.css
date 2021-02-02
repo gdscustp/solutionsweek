@@ -19,6 +19,14 @@ h1, h2 {
   text-indent: 3rem;
 } */
 
+.caption {
+  margin-top: 1rem;
+  padding: 0.3rem 1rem 0.4rem 0.75rem;
+  font-size: 0.85rem;
+  font-style: italic;
+  border-left: 3px solid #226E93;
+}
+
 .btn-color {
   background-color: #226E93;
   color: white;
@@ -90,6 +98,10 @@ h1, h2 {
 
   h1 {
     font-size: 2.25rem;
+  }
+
+  .caption {
+    font-size: 0.7rem;
   }
 }
 
