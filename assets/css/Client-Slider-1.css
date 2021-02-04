@@ -2,8 +2,9 @@
   margin: 0px 20px;
 }
 
-.slick-slide img {
+#sponsors .slick-slide img {
   width: 100%;
+  transition: 0.3s;
 }
 
 .slick-slider {
@@ -72,15 +73,15 @@
   float: right;
 }
 
-.slick-slide img {
+#sponsors .slick-slide img {
   display: block;
 }
 
-.slick-slide.slick-loading img {
+#sponsors .slick-slide.slick-loading img {
   display: none;
 }
 
-.slick-slide.dragging img {
+#sponsors .slick-slide.dragging img {
   pointer-events: none;
 }
 
