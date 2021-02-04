@@ -17,11 +17,6 @@ $(document).ready(function () {
       settings: {
         slidesToShow: 2
       }
-    }, {
-      breakpoint: 922,
-      settings: {
-        slidesToShow: 2
-      }
     }]
   });
 });
